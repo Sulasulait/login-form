@@ -1,0 +1,22 @@
+body{
+	background-image: url("backimage.jpg");
+	background-size: cover;
+}
+.container{
+	width:300px;
+	height:700px;
+	background:none;
+	border-color: white;
+	border-width: thin;
+}
+button{
+	border-radius:15%;
+	width:100%;
+	height:30px;
+}
+input{
+    border-radius: 20px;
+}
+h2{
+	color: red;
+}
