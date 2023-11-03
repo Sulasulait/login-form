@@ -17,6 +17,10 @@ button{
 	height: 40px;
 	border-color: gold;
 }
+button:hover{
+	background: cyan;
+	color: white;
+}
 .text{
     border-radius: 20px;
 	width: 250px;
