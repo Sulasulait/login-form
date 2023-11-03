@@ -1,22 +1,36 @@
 body{
 	background-image: url("backimage.jpg");
 	background-size: cover;
+	color: white;
 }
 .container{
 	width:300px;
-	height:700px;
+	height:450px;
 	background:none;
-	border-color: white;
-	border-width: thin;
+	border-color: gold;
+	border-style: solid;
+	border-radius: 20px;
 }
 button{
-	border-radius:15%;
-	width:100%;
-	height:30px;
+	border-radius:20px;
+	width:250px;
+	height: 40px;
+	border-color: gold;
 }
-input{
+.text{
     border-radius: 20px;
+	width: 250px;
+	height:40px;
+	border-color: gold;
+	background: none;
+	color: white;
 }
-h2{
-	color: red;
+a{
+	color: rgb(0, 255, 34);
+}
+::placeholder{
+	color: white;
+}
+center{
+	padding-top: 110px;
 }
